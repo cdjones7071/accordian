@@ -1,0 +1,34 @@
+* {
+  box-sizing:border-box;
+}
+
+.section {
+  border: solid 1px #00c6d6;
+  ;
+}
+
+.header {
+  background-color: #00c6d6;
+  color: white;
+  padding: 10px;
+  
+}
+
+.content {
+  height: 0px;
+  transition: height 1s;
+  overflow: hidden;
+}
+
+.content-spacer {
+  padding: 10px;
+}
+
+.section.active .content {
+  height: 100px;
+}
+.highlight   
+{    
+   background-color: #00DAEC;   
+   color: White;   
+} 
